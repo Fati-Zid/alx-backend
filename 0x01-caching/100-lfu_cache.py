@@ -6,7 +6,9 @@ This module provides the LFUCache class which implements a caching system with
 Least Frequently Used (LFU) eviction policy. The class inherits from BaseCaching.
 '''
 
+
 from base_caching import BaseCaching
+
 
 class LFUCache(BaseCaching):
     '''
